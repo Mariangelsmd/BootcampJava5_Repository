@@ -1,0 +1,23 @@
+# María de los Ángeles Molina Díaz
+No puedo subir los archivos al remoto ya que no tengo permisos en ese repositorio.
+## Comandos que he utilizado:
+* $ git clone https://github.com/DavidBernalGonzalez/practicaGit.git
+* $ git branch --all
+* $ git checkout practica01
+* $ cd practica1
+* $ git status
+* $ git commit -am "Commit 1"
+* $ git branch practica1_MOLINADIAZ_MARIANGELES
+* $ git checkout practica1_MOLINADIAZ_MARIANGELES
+* $ cd ..
+* $ git add practica1_MOLINADIAZ_MARIANGELES
+* $ git commit -m "Edición texto"
+* $ git commit -am "Edición texto con nombre"
+* $ git push (fallido)
+* $ git remote rm origin
+* $ git remote add origin https://github.com/Mariangelsmd/practicaGit.git
+* $ git checkout practica01
+* $ git merge practica1_MOLINADIAZ_MARIANGELES
+* $ git checkout practica1_MOLINADIAZ_MARIANGELES
+* $ git commit -am "Edición comandos"
+* git push --set-upstream origin practica1_MOLINADIAZ_MARIANGELES

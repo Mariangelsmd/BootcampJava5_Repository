@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  margin: 0px;
+}
+.container0 {
+  display: flex;
+  justify-content: space-around;
+
+  &&.container1 {
+    text-align: center;
+    width: 80%;
+  }
+  && #bombillaOff {
+    max-width: 90%;
+  }
+
+  && .container2 {
+    text-align: center;
+    margin-top: 10%;
+    color: beige;
+    font-family: system-ui;
+    width: 20%;
+  }
+  && #intOff {
+    width: 70px;
+    height: 70px;
+  }
+}

@@ -1,0 +1,62 @@
+.titulo {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+}
+div {
+    margin: 20px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.circulo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+}
+.element {
+    display: inline-block;
+    font-size: 25px;
+}
+.c1 {
+    background-color: red;
+}
+.c2 {
+    background-color:lawngreen ;
+}
+.c3 {
+    background-color: blue;
+}
+.c4 {
+    background-color: red;
+}
+.c5 {
+    background-color: blue;
+}
+.c6 {
+    background-color: purple;
+}
+.c7 {
+    background-color: blue;
+}
+.c8 {
+    background-color: lawngreen;
+}
+.c9 {
+    background-color: aqua;
+}
+.c10 {
+    background-color: lawngreen;
+}
+.c11 {
+    background-color: red;
+}
+.c12 {
+    background-color: yellow;
+}

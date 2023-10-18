@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+}
+
+#texto {
+  width: 100%;
+  position: absolute;
+  font-size: 40px;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+  top: 20%;
+}
+
+#zorroContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#zorro {
+  width: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+#barraGeneral {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  margin-top: 25px;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  height: 70px;
+  width: 450px;
+}
+
+#cajaRevivir {
+  opacity: 0;
+
+  && #revivir {
+    width: 100%;
+    position: absolute;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    top: 70%;
+  }
+
+  && #imgCorazon {
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    width: 140px;
+    ;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+
+  }
+}
+
+
+
+.containerTop {
+  display: flex;
+  height: 50vh;
+  text-align: center;
+
+  && progress {
+    height: 45px;
+    width: 350px;
+    margin-top: 5%;
+  }
+
+  && .containerLeftT,
+  .containerRightT {
+    width: 50vw;
+    height: 50vh;
+
+    && p {
+      font-family: monospace;
+      font-size: 50px;
+      text-align: center;
+      margin: 45px 0px 40px;
+    }
+  }
+
+  && .containerLeftT {
+    background-color: lightgreen;
+
+    && p {
+      color: mediumseagreen;
+    }
+
+    && #imgComida {
+      width: 150px;
+    }
+  }
+
+  && .containerRightT {
+    background-color: khaki;
+
+    && p {
+      color: goldenrod;
+    }
+
+    && #imgJuego {
+      width: 200px;
+    }
+  }
+}
+
+.containerBottom {
+  display: flex;
+  height: 50vh;
+  text-align: center;
+
+  && progress {
+    height: 45px;
+    width: 350px;
+    margin-top: 5%;
+  }
+
+  && .containerLeftB,
+  .containerRightB {
+    width: 50vw;
+    height: 50vh;
+  }
+
+  && p {
+    font-family: monospace;
+    font-size: 50px;
+    text-align: center;
+    margin: 45px 0px 40px;
+  }
+
+  && .containerLeftB {
+    background-color: lightcoral;
+
+    && p {
+      color: brown;
+    }
+
+    && #imgEjercicio {
+      width: 130px;
+    }
+  }
+
+  && .containerRightB {
+    background-color: lightblue;
+
+    && p {
+      color: cadetblue;
+    }
+
+    && #imgDormir {
+      width: 140px;
+    }
+  }
+}
+
+/* ANIMACIONES */
+
+@keyframes shake-left {
+  0% {
+    transform: rotate(-10deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+@keyframes shake-right {
+  0% {
+    transform: rotate(10deg);
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    transform: rotate(10deg);
+  }
+}

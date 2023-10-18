@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  background-color: burlywood;
+  width: 700px;
+  border: dashed 4px black;
+  && img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 30px;
+  }
+  && p {
+    margin: 35px 10px 30px;
+    padding: 10px;
+    background-color: bisque;
+    max-width: 440px;
+    border: solid brown;
+    font-family: monospace;
+    font-size: 20px;
+    align-self: center;
+    font-weight: bold;
+    text-align: center;
+  }
+}

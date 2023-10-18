@@ -1,0 +1,108 @@
+body {
+    margin: auto;
+    background-color:thistle ;
+    font-family: monospace;
+}
+.container-0 {
+    font-size: 190%;
+    font-weight: bold;
+    text-align: -webkit-center;
+    color: rgb(66, 66, 66);
+    background-color:purple;
+    padding: 10px;
+
+    && .cajaTexto {
+        background-color: thistle;
+        width: 600px;
+        height: 60px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        && #mensaje {
+            text-align: center;
+            font-size: 120%;
+            padding: 10px;
+        }
+}
+}
+.hr1 {
+    margin-top: 50px;
+    height: 3px;
+    width: 600px;
+    background-color: purple
+  }
+.container {
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    text-align: -webkit-center;
+    font-weight: bold;
+    font-size: 180%;
+    color: rgb(66, 66, 66);
+    margin-top: 30px;
+    && .seleccion {
+        font-size: 150%;
+        width: 180px;
+        height: 180px;
+        background-color: purple;
+        margin: 40px 0px 30px;
+        border: solid 4px orchid;
+        border-radius: 20%;
+        -webkit-border-radius: 20%;
+        -moz-border-radius: 20%;
+        -ms-border-radius: 20%;
+        -o-border-radius: 20%;
+        && #caja1, #caja2 {
+            font-size: 300%;
+            margin-top: 10%;
+        }
+    }
+    && .resultado {
+        align-self: center;
+
+        && .bresultado {
+            width: 150px;
+            height: 70px;
+            font-size: 70%;
+            color: thistle;
+            background-color: purple;
+        }
+    }
+    && .papel, .piedra, .tijera, .random {
+        height: 55px;
+        width: 65px;
+        font-size: 130%;
+        background-color:purple;
+    }
+}
+.container-3 {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    font-size: 190%;
+    color: rgb(66, 66, 66);
+    font-weight: bold;
+    margin: 30px;
+    && #contador-1, #contador-2
+    {
+        font-size: 150%;
+        margin: 18px 20px 0px;
+        color: purple;
+    }
+    && #vs
+    {
+        margin: 25px 50px 0px;
+    }
+
+}
+.container-4 {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    && #reiniciar{
+        width: 100px;
+        height: 50px;
+        font-size: 120%;
+        color: thistle;
+        background-color: purple;
+    }
+}

@@ -1,0 +1,9 @@
+* {background-color: rgb(238, 215, 186)}
+p {column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-color: red;
+    column-rule-width: 2px;}
+p::selection {color: rgb(228, 205, 143); background-color: rgb(223, 90, 86);}
+h1 {color: red; display: inline-block;}
+h1:hover {color: rgb(99, 175, 12);}

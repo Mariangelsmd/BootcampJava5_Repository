@@ -1,0 +1,39 @@
+.caja {
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 3px solid black;
+}
+p {
+    margin: 5px;
+    font-weight: bold;
+    font-size:larger;
+    text-align:center;
+    
+}
+.dot {
+    margin: 0px;
+    background-color: greenyellow;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid black;
+    position:fixed
+}
+.dot1{
+    top: 40px;
+    left: 45px;
+}
+.dot2 {
+    top: 40px;
+    left: 245px;
+}
+.dot3 {
+    top: 235px;
+    left: 45px;
+}
+.dot4 {
+    top: 235px;
+    left: 240px;
+}

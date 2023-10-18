@@ -1,0 +1,59 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+// @include media-breakpoint-up(sm) {
+//     body {
+//         background-color: violet;
+//     }
+// }
+
+// @include media-breakpoint-up(md) {
+//     body {
+//         background-color: blue;
+//     }
+// }
+
+
+// @include media-breakpoint-up(lg) {
+//     body {
+//         background-color: green;
+//     }
+// }
+
+// @include media-breakpoint-up(xl) {
+//     body {
+//         background-color: yellow;
+//     }
+// }
+
+// @include media-breakpoint-up(xxl) {
+//     body {
+//         background-color: orange;
+//     }
+// }
+
+@include media-breakpoint-between(xs, sm) {
+    body {
+        background-color: violet;
+    }
+}
+@include media-breakpoint-between(sm, md) {
+    body {
+        background-color: violet;
+    }
+}
+@include media-breakpoint-between(md,lg) {
+    body {
+        background-color: violet;
+    }
+}
+@include media-breakpoint-between(lg, xl) {
+    body {
+        background-color: green;
+    }
+}
+
+@include media-breakpoint-between(xl, xxl) {
+    body {
+        background-color: green;
+    }
+}

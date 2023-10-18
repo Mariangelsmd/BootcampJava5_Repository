@@ -1,0 +1,25 @@
+body {background-color:azure;}
+.pie {
+    background-color: aqua;
+    font-weight: bold;
+    }
+.titulo {
+    background-color: aqua;
+    font-weight: bold;
+    font-size: large;
+}
+table {
+    background-color: antiquewhite;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    border: solid 5px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+td {
+    width: 130px;}
+.celda {
+    border-left: solid 1px;
+    border-bottom: solid 3px;
+}

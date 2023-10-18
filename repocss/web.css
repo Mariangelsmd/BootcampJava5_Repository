@@ -1,0 +1,32 @@
+* {
+    margin: 0%;
+}
+header {
+    background-color: red;
+    width: 100vw;
+    height: 10vh;
+}
+nav {
+    background-color: blue;
+    width: 100vw;
+    height: 5vh;
+}
+section {
+    background-color: pink;
+    float: left;
+    width: 68vw;
+    height: 75vh;
+}
+aside {
+    background-color: purple;
+    float: right;
+    clear: right;
+    width: 30vw;
+    height: 75vh;
+}
+footer {
+    background-color: chartreuse;
+    clear: both;
+    width: 100vw;
+    height: 10vh;
+}

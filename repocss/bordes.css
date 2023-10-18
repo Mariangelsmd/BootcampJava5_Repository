@@ -1,0 +1,11 @@
+div{
+    margin: auto;
+    margin-top: 50px;
+    width: 300px;
+    padding: 30px ;
+    border-top: dotted green 5px;
+    border-bottom: solid red 5px;
+    border-left: double black 5px;
+    border-right: dashed blue 5px;
+
+}

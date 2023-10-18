@@ -1,0 +1,12 @@
+main {
+    margin: 0px;
+}
+
+div {
+    text-align: center;
+    && .cartaBack1,
+    .cartaBack2 {
+        width: 30%;
+        margin: 40px 60px 0px;
+    }
+}

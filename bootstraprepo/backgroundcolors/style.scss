@@ -1,0 +1,11 @@
+$primary: cadetblue;
+$secondary: coral;
+$success: darkgoldenrod;
+$info: violet;
+$warning: tomato;
+$danger: seagreen;
+$light: sandybrown;
+$dark: dimgrey;
+
+//El import debe ir debajo si modificamos colores
+@import "./node_modules/bootstrap/scss/bootstrap.scss";

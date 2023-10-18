@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <!--CABECERA-->
+        <div class="container-0" id="mensajeCaja">
+            <div class="cajaTexto">
+                <p id="mensaje">👾 Que comience el juego 👾</p>
+            </div>
+        </div>
+        <!--JUGADORES, CAJA Y BOTONES-->
+        <div class="container">
+            <div class="container-1" id="jugador1">
+                <p>JUGADOR 1</p>
+                <div class="seleccion">
+                    <p id="caja1"></p>
+                </div>
+                <button class="piedra" id="p1">💎</button>
+                <button class="papel" id="pp1">📃</button>
+                <button class="tijera" id="t1">✂️</button>
+                <button class="random" id="r1">❓</button>
+            </div>
+            <div class="resultado">
+                <button class="bresultado" id="mr">Mostrar resultado</button>
+            </div>
+            <div class="container-2" id="jugador2">
+                <p>JUGADOR 2</p>
+                <div class="seleccion">
+                    <p id="caja2"></p>
+                </div>
+                <button class="piedra" id="p2">💎</button>
+                <button class="papel" id="pp2">📃</button>
+                <button class="tijera" id="t2">✂️</button>
+                <button class="random" id="r2">❓</button>
+            </div>
+        </div>
+        <!--CONTADOR-->
+        <hr class="hr1">
+        <div class="container-3" id="contador">
+            <p>Jugador 1: </p>
+            <p id="contador-1">0</p>
+            <p id="vs">VS.</p>
+            <p>Jugador 2: </p>
+            <p id="contador-2">0</p>
+        </div>
+        <!--REINICIAR-->
+        <div class="container-4">
+            <input type="button" value="Reiniciar" id="reiniciar">
+        </div>
+    </main>
+    <footer></footer>
+    <script src="./main.js"></script>
+</body>
+
+</html>

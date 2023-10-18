@@ -1,0 +1,57 @@
+div {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: red;
+    border: 13px solid white;
+    position: absolute;
+}
+.c1 {
+    width: 50px;
+    height: 50px;
+    top: 150px;
+    left: 150px;
+}
+.c2 {
+    width: 100px;
+    height: 100px;
+    top: 125px;
+    left: 125px;
+}
+.c3 {
+    width: 150px;
+    height: 150px;
+    top: 100px;
+    left: 100px;
+}
+.c4 {
+    width: 200px;
+    height: 200px;
+    top: 75px;
+    left: 75px;
+}
+.c5 {
+    width: 250px;
+    height: 250px;
+    top: 50px;
+    left: 50px;
+    outline: solid ;
+}
+.horizontal {
+        height: 2px;
+        width: 278px;
+        background-color: black;
+        position: absolute;
+        top: 178px;
+        left: 49px;
+      }
+.vertical {
+        height: 278px;
+        width: 2px;
+        background-color: black;
+        position: absolute;
+        top: 42px;
+        left: 186px;
+      }

@@ -1,0 +1,90 @@
+.container {
+  text-align: center;
+  width: 500px;
+  background-color: steelblue;
+  padding: 30px;
+  border-radius: 5%;
+
+  && .subcontainer1 {
+
+    && .titulo {
+      color: azure;
+      font-family: sans-serif;
+      font-size: 20px;
+      margin: 0;
+    }
+  }
+
+  && .subcontainer2 {
+    height: 70px;
+    background-color: azure;
+    margin: 30px 0px 30px;
+    display: flex;
+    border-radius: 5%;
+    justify-content: right;
+    
+    && .pantalla{
+      font-size: 30px;
+      margin: 20px 20px 20px;
+      place-self: center;
+      color: rgb(42, 42, 56);
+      font-family: system-ui;
+      color: darkblue;
+      
+    }
+  }
+
+  && .subcontainer3 {
+    background-color: midnightblue;
+    border-radius: 5%;
+    padding: 20px;
+    
+    && button {
+        width: 90px;
+        height: 75px;
+        margin: 10px 3px 10px;
+        width: 90px;
+        height: 75px;
+        margin: 10px 3px 10px;
+        font-size: 20px;
+        background-color: azure;
+        color: darkblue;
+        border-radius: 10%;
+        -webkit-border-radius: 10%;
+        -moz-border-radius: 10%;
+        -ms-border-radius: 10%;
+        -o-border-radius: 10%;
+    }
+
+    && .por {
+        width: 140px;
+    }
+
+    && .menos,.por {
+        width: 140px;
+    }
+
+    && .mas {
+        width: 140px;
+    }
+
+    && .del {
+        background-color: darkblue;
+        color: aliceblue;
+        width: 140px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+    }
+
+    && .reset {
+        width: 150px;
+        background-color: darkblue;
+        color: aliceblue;
+    }
+
+    && .igual {
+        width: 150px;
+        background-color: crimson;
+        color: aliceblue;
+        
+    }
+  }
+}
