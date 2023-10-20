@@ -1,0 +1,44 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+.fondo {
+    background-color: #661bbb; 
+}
+
+.fondo2 {
+    background-color: #6b6d7a; 
+}
+
+.fondo3 {
+    background-color: #232535; 
+}
+
+.borde2 {
+    background-color: #9396a5;
+}
+
+.borde {
+    background-color: #853ed6; 
+    width: 50px;
+}
+
+.borde3 {
+    background-color: #40435b; 
+}
+
+.imgfondo {
+    background-image: url('./bg-pattern-quotation.svg');
+    background-repeat: no-repeat; 
+    background-position: calc(100% - 70px) top;
+}
+
+.fS {
+    font-size: 18px;
+}
+
+.fSs {
+    font-size: 15px;
+}
+
+.marginleft {
+    margin-left: 15px;
+}
