@@ -11855,5 +11855,31 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.blue-height {
+  height: 100px;
+}
+
+.yellow-height {
+  height: 100px;
+}
+
+@media (max-width: 575px) {
+  .red-height {
+    height: 80px;
+    /* Altura de 50px cuando se cumple la condición */
+  }
+}
+@media (max-width: 575px) {
+  .blue-height {
+    height: 80px;
+    /* Altura de 50px cuando se cumple la condición */
+  }
+}
+@media (max-width: 575px) {
+  .yellow-height {
+    height: 80px;
+    /* Altura de 50px cuando se cumple la condición */
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
