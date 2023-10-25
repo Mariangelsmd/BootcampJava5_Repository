@@ -87,7 +87,7 @@ public class Main {
 		incrementar(numero);
 		decrementar(numero);
 
-		// EJERCICIO 6
+		// EJERCICIO 7 *******************************
 		// Operadores aritméticos combinados
 
 		int numero2 = 25;
@@ -99,7 +99,7 @@ public class Main {
 		System.out.println(numero2);
 		System.out.println("_______________________________________________________________");
 
-		// EJERCICIO 7
+		// EJERCICIO 8 *******************************
 		// Operadores de relación
 		int num1 = 1;
 		int num2 = 2;
@@ -124,13 +124,51 @@ public class Main {
 		System.out.println(num2 >= num2);
 		System.out.println("_______________________________________________________________");
 
-		// EJERCICIO 8
+		// EJERCICIO 9 *******************************
 		// Operadores lógicos booleanos
 		boolean bool1 = true;
 		boolean bool2 = false;
 		boolean bool3 = false;
-		boolean bool4= true;
-		
+		boolean bool4 = true;
+
+		System.out.println(bool1 = !bool2);
+		System.out.println(bool2 = !bool3);
+		System.out.println("_______________________________________________________________");
+
+		// EJERCICIO 10 ******************************
+		// Operadores lógicos booleanos
+		// Parte 1
+		int numCond = 5;
+		boolean par = false;
+
+		par = numCond % 2 == 0 ? true : false;
+
+		if (par == true) {
+			System.out.println("El número es par");
+		}
+
+		else if (par == false) {
+			System.out.println("El número es impar");
+
+			// Parte 2
+
+			int numBN = (int) (Math.random() * (100 - 0 + 1));
+			boolean blancoNegro = false;
+
+			blancoNegro = numBN % 2 == 0 ? true : false;
+
+			System.out.println("El número aleatorio es " + numBN);
+
+			if (blancoNegro == true) {
+				System.out.println("Blanco");
+			}
+
+			else if (blancoNegro == false) {
+				System.out.println("Negro");
+			}
+
+		}
+
 	}
 
 }
