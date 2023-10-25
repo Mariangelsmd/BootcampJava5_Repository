@@ -1,5 +1,22 @@
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
 .text-blue{
-    color: rgb(66, 168, 134);
+    color: rgb(66, 163, 168);
+}
+
+.bg-grey{
+    background-color: rgb(248, 254, 255);
+}
+
+.margen-cajas {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.ancho-boton {
+    width: 200px;
+}
+
+.altura-buscador {
+    height: 40px;
 }
