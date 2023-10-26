@@ -1,14 +1,22 @@
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
-.text-blue{
+.text-blue {
     color: rgb(66, 163, 168);
 }
 
-.bg-grey{
+.bg-grey {
     background-color: rgb(248, 254, 255);
 }
 
-.margen-cajas {
+.margen-i {
+    margin-left: 215px;
+}
+
+.margen-d {
+    margin-right: 215px;
+}
+
+.margen-cajas{
     margin-left: 200px;
     margin-right: 200px;
 }

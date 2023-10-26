@@ -11863,6 +11863,14 @@ textarea.form-control-lg {
   background-color: rgb(248, 254, 255);
 }
 
+.margen-i {
+  margin-left: 215px;
+}
+
+.margen-d {
+  margin-right: 215px;
+}
+
 .margen-cajas {
   margin-left: 200px;
   margin-right: 200px;

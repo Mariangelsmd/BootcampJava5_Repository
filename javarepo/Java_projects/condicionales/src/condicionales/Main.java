@@ -120,7 +120,7 @@ public class Main {
 
 			// Pie del árbol
 			if (i >= altura - 1) {
-				for (int j = 1; j < (altura - 3); j++) {
+				for (int j = 0; j < (altura - 4); j++) {
 					System.out.print(espacio);
 				}
 				for (int k = 4; k > 0; k--) {
@@ -128,7 +128,7 @@ public class Main {
 				}
 				// Copa del árbol
 			} else {
-				for (int j = 1; j < (altura - 1) - i; j++) {
+				for (int j = 0; j < (altura - 2) - i; j++) {
 					System.out.print(espacio);
 				}
 				for (int k = 2 * i; k > 0; k--) {

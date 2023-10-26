@@ -1,58 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container-fluid">
         <!-- HEADER -->
-        <div class="row mt-4 mb-5 align-middle d-flex align-items-center margen-cajas">
+        <div class="row shadow mb-3 align-middle d-flex align-items-center">
             <!-- Realbnb -->
-            <div class="col-auto fs-1 fw-bold text-blue">Realbnb</div>
+            <div class="col-auto fs-1 fw-bold text-blue mt-3 mb-2 margen-i">Realbnb</div>
             <!-- Search Listings -->
             <div class="col">
-                <div class="input-group input-group-sm">
-                    <input type="text" class="form-control altura-buscador" placeholder="Search Listings" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                  </div>
+                <div class="input-group input-group-sm mt-3 mb-2">
+                    <input type="text" class="form-control altura-buscador" placeholder="Search Listings"
+                        aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                </div>
             </div>
             <!-- Btn login -->
-            <div class="col text-end">
-                <button type="button" class="btn btn-dark ancho-boton">Login</button>
+            <div class="col text-end mb-2 margen-d">
+                <button type="button" class="btn btn-dark ancho-boton mt-3">Login</button>
             </div>
+
         </div>
         <!-- BODY -->
-        <div class="row margen-cajas">
+        <div class="row margen-cajas my-5">
             <!-- Imagen 1 -->
-            <div class="col bg-grey rounded mx-3 gx-0">
+            <div class="col bg-grey rounded mx-3 gx-0 shadow">
                 <img class="img-fluid rounded" src="./montaña.jpg" alt="">
-                <p class="text">Private Room</p>
-                <p class="text">Mountain</p>
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero tempore expedita porro tempora maxime hic officiis reiciendis nisi ipsum minus dolor quo veritatis.</p>
-                <p class="text">2 people</p>
-                <p class="text">50$</p>
+                <div class="container-text mx-3 my-2">
+                    <p class="text text-muted">Private Room</p>
+                    <p class="text fs-4 fw-bold">Mountain</p>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero tempore expedita
+                        porro tempora maxime hic officiis reiciendis nisi ipsum minus dolor quo veritatis.</p>
+                    <p class="text">2 people</p>
+                    <p class="text fs-4 text-blue">50$</p>
+                </div>
+
             </div>
             <!-- Imagen 2 -->
-            <div class="col bg-grey rounded mx-3 gx-0">
+            <div class="col bg-grey rounded mx-3 gx-0 shadow">
                 <img class="img-fluid rounded" src="./playa.jpg" alt="">
-                <p class="text">Private Room</p>
-                <p class="text">Beach</p>
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero tempore expedita porro tempora maxime hic officiis reiciendis nisi ipsum minus dolor quo veritatis.</p>
-                <p class="text">4 people</p>
-                <p class="text">80$</p>
+                <div class="container-text mx-3 my-2">
+                    <p class="text text-muted">Private Room</p>
+                    <p class="text fs-4 fw-bold">Beach</p>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero tempore expedita
+                        porro tempora maxime hic officiis reiciendis nisi ipsum minus dolor quo veritatis.</p>
+                    <p class="text">4 people</p>
+                    <p class="text fs-4 text-blue">80$</p>
+                </div>
+
             </div>
             <!-- Imagen 3 -->
-            <div class="col bg-grey rounded mx-3 gx-0">
+            <div class="col bg-grey rounded mx-3 gx-0 shadow">
                 <img class="img-fluid rounded" src="./spa.jpg" alt="">
-                <p class="text">Private Room</p>
-                <p class="text">Spa</p>
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero tempore expedita porro tempora maxime hic officiis reiciendis nisi ipsum minus dolor quo veritatis.</p>
-                <p class="text">2 people</p>
-                <p class="text">65$</p>
+                <div class="container-text mx-3 my-2">
+                    <p class="text text-muted">Private Room</p>
+                    <p class="text fs-4 fw-bold">Spa</p>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero tempore expedita
+                        porro tempora maxime hic officiis reiciendis nisi ipsum minus dolor quo veritatis.</p>
+                    <p class="text">2 people</p>
+                    <p class="text fs-4 text-blue">65$</p>
+                </div>
+
             </div>
+            
+        </div>
+        <div class="row margen-cajas my-5">
+            <!-- Imagen 1 -->
+            <div class="col bg-grey rounded mx-3 gx-0 shadow">
+                <img class="img-fluid rounded" src="./montaña.jpg" alt="">
+                <div class="container-text mx-3 my-2">
+                    <p class="text text-muted">Private Room</p>
+                    <p class="text fs-4 fw-bold">Mountain</p>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero tempore expedita
+                        porro tempora maxime hic officiis reiciendis nisi ipsum minus dolor quo veritatis.</p>
+                    <p class="text">2 people</p>
+                    <p class="text fs-4 text-blue">50$</p>
+                </div>
+
+            </div>
+            <!-- Imagen 2 -->
+            <div class="col bg-grey rounded mx-3 gx-0 shadow">
+                <img class="img-fluid rounded" src="./playa.jpg" alt="">
+                <div class="container-text mx-3 my-2">
+                    <p class="text text-muted">Private Room</p>
+                    <p class="text fs-4 fw-bold">Beach</p>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero tempore expedita
+                        porro tempora maxime hic officiis reiciendis nisi ipsum minus dolor quo veritatis.</p>
+                    <p class="text">4 people</p>
+                    <p class="text fs-4 text-blue">80$</p>
+                </div>
+
+            </div>
+            <!-- Imagen 3 -->
+            <div class="col bg-grey rounded mx-3 gx-0 shadow">
+                <img class="img-fluid rounded" src="./spa.jpg" alt="">
+                <div class="container-text mx-3 my-2">
+                    <p class="text text-muted">Private Room</p>
+                    <p class="text fs-4 fw-bold">Spa</p>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero tempore expedita
+                        porro tempora maxime hic officiis reiciendis nisi ipsum minus dolor quo veritatis.</p>
+                    <p class="text">2 people</p>
+                    <p class="text fs-4 text-blue">65$</p>
+                </div>
+
+            </div>
+            
         </div>
     </div>
 </body>
+
 </html>
