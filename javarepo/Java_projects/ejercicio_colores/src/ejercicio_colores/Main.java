@@ -4,6 +4,7 @@ import java.awt.FocusTraversalPolicy;
 import java.lang.module.FindException;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -50,14 +51,14 @@ public class Main {
 
 	}
 
-	public static String editorTexto(String texto, String color, String bg, String efecto, String inicio, String fin) {
-		String formato = inicio + color + inicio + bg + inicio + efecto;
+	public static String editorTexto(String texto, String color, String efecto, String inicio, String fin) {
+		String formato = inicio + color + inicio + efecto;
 		String textoFormateado = formato + texto + fin;
 		return textoFormateado;
 	}
-	
-	public static String formateoTexto (String texto, String fin) {
-		String textoFormateado = texto+fin;
+
+	public static String formateoTexto(String texto, String fin) {
+		String textoFormateado = texto + fin;
 		return textoFormateado;
 	}
 
@@ -80,6 +81,7 @@ public class Main {
 
 		// EJERCICIO 2
 		// **************************************************************************************
+		// El efecto de bg ya está incluido en estos colores
 		final String RED = "48;5;1m";
 		final String YELLOW = "48;5;226m";
 		final String BLUE = "48;5;4m";
@@ -217,11 +219,21 @@ public class Main {
 		// EJERCICIO 3
 		// ********************************************************************************************
 		String textoString = "Hola";
-		String textoFormatString = editorTexto(textoString, RED, BGC, UNDERLINED, INICIO, FIN);
+		String textoFormatString = editorTexto(textoString, RED, UNDERLINED, INICIO, FIN);
 		System.out.println("**************************************************");
 		System.out.println(textoFormatString);
 		textoFormatString = formateoTexto(textoFormatString, FIN);
-		System.out.println(textoFormatString+" Este texto ya no tiene formato");
+		System.out.println(textoFormatString + " Este texto ya no tiene formato");
+
+		// EJERCICIO 4
+		textoString = "Texto arcoiris";
+		Random random = new Random();
+		int efecto = random.nextInt(9) + 1;
+		int colorf = random.nextInt(16);
+		int colorbg = random.nextInt(16);
+		String textoBucle = "\033[" + "38;5;" + colorf + "m" + "\033[" + "48;5;" + colorbg + "m" + "\033[" + efecto
+				+ "m" + textoString + "\033[0m";
+		System.out.println(textoBucle);
 	}
 
 }
