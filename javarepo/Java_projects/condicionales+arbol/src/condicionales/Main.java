@@ -1,5 +1,6 @@
 package condicionales;
 
+import java.lang.invoke.StringConcatFactory;
 import java.util.Scanner;
 
 import javax.naming.directory.AttributeModificationException;
@@ -110,11 +111,19 @@ public class Main {
 		// ******************************************************************************************
 		String espacio = " ";
 		String simbolo = "";
+		String inicioFormatoV = "\033[48;5;2m";
+		String inicioFormatoM = "\033[48;5;52m";
+		String finalFormato = "\033[0m";
+		String simboloFormateadoCopa = "";
+		String simboloFormateadoPie = "";
 		int altura = 0;
 		System.out.println("¿Qué símbolo desea para su árbol?");
 		simbolo = sc.next();
 		System.out.println("¿Qué altura desea que tenga su árbol?");
 		altura = sc.nextInt();
+		
+		simboloFormateadoCopa = inicioFormatoV+simbolo+finalFormato;
+		simboloFormateadoPie = inicioFormatoM+simbolo+finalFormato;
 
 		for (int i = 1; i <= altura; i++) {
 
@@ -124,7 +133,7 @@ public class Main {
 					System.out.print(espacio);
 				}
 				for (int k = 4; k > 0; k--) {
-					System.out.print(simbolo);
+					System.out.print(simboloFormateadoPie);
 				}
 				// Copa del árbol
 			} else {
@@ -132,7 +141,7 @@ public class Main {
 					System.out.print(espacio);
 				}
 				for (int k = 2 * i; k > 0; k--) {
-					System.out.print(simbolo);
+					System.out.print(simboloFormateadoCopa);
 				}
 			}
 
