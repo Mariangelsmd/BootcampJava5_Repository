@@ -1,2 +1,2 @@
 # BootcampJava5_Repository 🖥️
-## ✅This repository contains exercises of my course Java 5 Bootcamp on Fundesplai
+## ✅ Este repositorio contiene ejercicios realizados durante el Bootcamp de Java en Fundesplai
